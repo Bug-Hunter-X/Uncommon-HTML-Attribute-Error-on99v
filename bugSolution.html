@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Instead of using a non-standard attribute, use data attributes for custom data.
+    document.getElementById("myDiv").dataset.customAttribute = "someValue";
+    // Accessing the data attribute:
+    console.log(document.getElementById("myDiv").dataset.customAttribute);
+  </script>
+</body>
+</html>
