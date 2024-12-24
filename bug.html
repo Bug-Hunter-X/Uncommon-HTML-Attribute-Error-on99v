@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //This is a very uncommon error that occurs when you use an attribute that is not officially supported in HTML,
+    // but is accepted by some browsers.  This can lead to inconsistencies between browsers and unexpected behavior.
+    document.getElementById("myDiv").setAttribute("nonexistent-attribute", "someValue");
+    // In this example, "nonexistent-attribute" is not a valid HTML attribute.
+  </script>
+</body>
+</html>
